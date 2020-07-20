@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(45deg, hsla(34, 100%, 81%, 1) 0%, hsla(176, 62%, 87%, 1) 100%);
+    font-family: 'Varela Round';
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 0px 35px rgba(100, 100, 100, .3);
+    border-radius: 25px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    text-align: center;
+}
+
+.login-title {
+    margin-bottom: 55px;
+    font-size: 36px;
+    font-weight: bold;
+    display: block;
+}
+
+.login-credential {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    display: block;
+}
+
+.login-register {
+    margin-top: 30px;
+    font-size: 14px;
+    display: block;
+    color: rgba(100, 100, 100, .5);
+}
+
+.login-register a {
+    text-decoration: none;
+    color: rgba(100, 100, 100, 1);
+}
+
+.login-register a:hover {
+    color: rgba(40, 40, 40, 1);
+}
+
+input[type=submit] {
+    margin-top: 50px;
+    border-radius: 100px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    background: hsla(174, 62%, 47%, 1);
+}
+
+input[type=submit]:hover {
+    background: hsla(174, 62%, 40%, 1);
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    border: none;
+    border-bottom: 2px solid #d1d1d1;
+    margin: auto;
+    padding-bottom: 10px;
+    width: 80%;
+    display: block;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=submit]:focus {
+    border: none;
+    border-bottom: 2px solid #919191;
+}
